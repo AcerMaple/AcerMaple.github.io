@@ -2,56 +2,30 @@
 <!--
 Hello internet user,
 
-For the love of all that is worth loving *please*
-if you copy-paste this to use for your own
-website, try to change the Google analytics code
-to yours or just remove it.
-
 The code used to generate this website is released
 under the GNU General Public License version 3
 (GPLv3) and written by Olivia Guest.
 More information here: http://oliviaguest.com/license
 
-Feel free to contact me on the repo: 
+Feel free to contact her at the original repo: 
 https://github.com/oliviaguest/oliviaguest.github.io
 if you need help with anything! :)
-
-Cheers,
-Olivia
 -->
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:fb="http://ogp.me/ns/fb#">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
-    <meta property="og:image" content="//avatars3.githubusercontent.com/u/5082092?v=3&s=460" />
+    
     {% if page.url == "/404.html" %}
         <meta http-equiv="refresh" content="3; url=/">
     {% endif %}
-    {% if page.url == "/art" %}
-        <meta http-equiv="refresh" content="0; url=//art.oliviaguest.com/">
-    {% endif %}
+    
     {% include meta.html %}
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     
-    <!-- <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script> -->
-    
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-128.png" sizes="128x128" />
+
     <meta name="application-name" content="&nbsp;"/>
     <meta name="msapplication-TileColor" content="#FFFFFF" />
     <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png" />
@@ -63,49 +37,10 @@ Olivia
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ site.baseurl }}/academicons/css/academicons.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
-    <!--<script src="/js/collapsible.js"></script>-->
-<script>
-      $(document).ready(function() { 
-            $('#menu').collapsible({
-                  //  contentOpen: 0 
-            }); 
-            
-            fixAltmetric();  
-            
-//             This following doesn't work because Altmetric's script would need to be reloaded.
-//             $(window).resize(function() {
-//                   fixAltmetric();
-//             });
-
-      });  
-      
-      function fixAltmetric() {
-            var $width = $(window).width();
-
-            if ($width < 550+280) {
-                  $(".altmetric-embed").attr("data-badge-popover", "left");  
-            } else {
-                  $(".altmetric-embed").attr("data-badge-popover", "right");  
-            }
-      };
-      
-      
-
-</script>
- 
-    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script> <!-- this is for Altmetric -->
-    <script type="text/javascript" src="//cdn.rawgit.com/jordnkr/collapsible/master/jquery.collapsible.min.js" ></script>
-
-
-
-
-
-          
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet"> removed for testing-->
+        
   </head>
 
   <body>
@@ -116,43 +51,10 @@ Olivia
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
-            <ul>
-                  
-                  <li><a href="//github.com/oliviaguest" title="Fork me on GitHub" style="text-decoration:none">
-                  <i class="fa fa-github"></i></a></li> 
-
-                  <li><a href="//twitter.com/o_guest" title="Follow me on Twitter" style="text-decoration:none">
-                  <i class="fa fa-twitter"></i></a></li>
-                  
-                  <!--<li><a href="//telegram.me/oliviaguest" title="Chat me on Telegram" style="text-decoration:none">
-                  <i class="fa fa-telegram"></i></a></li>
-
-                  <li><a href="//www.facebook.com/olivia.guest" title="Friend me on Facebook" style="text-decoration:none">
-                  <i class="fa fa-facebook"></i></a></li>  -->                
-                  
-                  <li><a href="//scholar.google.co.uk/citations?user=ZHGrUooAAAAJ" title="View my Google Scholar profile" style="text-decoration:none">
-                  <i class="ai ai-google-scholar"></i></a></li>
-                  
-                  <li><a href="//www.researchgate.net/profile/Olivia_Guest" title="Follow me on ResearchGate" style="text-decoration:none">
-                  <i class="ai ai-researchgate"></i></a></li>
-
-                  <li><a href="//impactstory.org/u/0000-0002-1891-0972" title="View my Impactstory" style="text-decoration:none">
-                  <i class="ai ai-impactstory"></i></a></li>
-
-                  <li><a href="//orcid.org/0000-0002-1891-0972" title="View my ORCID profile" style="text-decoration:none">
-                  <i class="ai ai-orcid"></i></a></li>   
-                                                          
-                  <li><a href="//figshare.com/authors/Olivia_Guest/2873402" title="View my figshare profile" style="text-decoration:none">
-                  <i class="ai ai-figshare"></i></a></li>
-
-            </ul>
-            
+        <footer class="footer">        
           <span class="flip"><a href="//copyleft.org/">©</a></span> <a href="/license/">Olivia Guest 2013–{{ site.time | date: '%y' }}</a>
         </footer>
       </div>
     </div>
-
-    {% include analytics.html %}
   </body>
 </html>

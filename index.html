@@ -1,30 +1,21 @@
 ---
 layout: default
 ---
-<noscript>
-	<style>
-		.collapse-container > :nth-child(even) {
-		    display: block;
-		}
-	</style>
-</noscript>
+
 
 <div class="content">
 	
 	<div id="header">
-		<a href="/">Olivia Guest</a>
+		<a href="/">Douglas Tutoring</a>
 	</div>
 
 	<div id="description">
-		{% include me.md %}
+		{% include description.md %}
+	</div>
+	
+	<div id="table">
+		{% include subjecttable.md %}
 	</div>
 
-	<div id="index">
-      		<div id="menu" class="collapse-container">
-		  	<h1>Publications</h1>
-		        	<div>{% include loop_publications.md %}</div>
-			<h1>CV</h1>
-				<div>{% include cv.md %}</div>		
-		</div>
-	</div>
+
 </div>
