@@ -1,6 +1,6 @@
 <div id="nav">
-	<a href="#">Main Page</a>
-	<a href="#teachingphilosophy">Teaching Philosophy</a>	
-	<a href="#aboutcorsten">About Corsten</a>	
-	<a href="#teachingstyle">Teaching Style</a>
+	<a href="/">Main Page</a>
+	<a href="/teachingphilosophy.html">Teaching Philosophy</a>	
+	<a href="/aboutcorsten.html">About Corsten</a>	
+	<a href="/teachingstyle.html">Teaching Style</a>
 </div>
