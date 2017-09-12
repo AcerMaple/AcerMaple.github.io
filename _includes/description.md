@@ -1,7 +1,5 @@
 
 <div id="main" class="container" role="main">
-	<div id="header">Douglas Tutoring</div>
-
 		<ul>
 			<li>Douglas Tutoring offers 1:1 private tuition to students in Cambridge and London</li>
 			<li>Specialist science tutor</li>
