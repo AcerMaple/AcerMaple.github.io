@@ -34,7 +34,6 @@
 			<td class="tick"></td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td class="subject">Maths</td>
