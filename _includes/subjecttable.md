@@ -31,6 +31,7 @@
 			<td class="subject">Physics</td>
 			<td>N/A</td>
 			<td class="tick"></td>
+			<td class="tick"></td>
 			<td></td>
 			<td></td>
 			<td></td>
