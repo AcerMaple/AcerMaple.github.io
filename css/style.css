@@ -59,7 +59,7 @@ table, tr {
 	table-layout: fixed; 
 	}
 
-#subject {
+table .subject {
 	border-right: 1px solid black;
 	}
 	
@@ -76,7 +76,7 @@ td {
 	vertical-align: middle;
 	width: 100%}
 
-#tick {
+.tick {
 	width: 32px;
 	height: 32px;
 	background-image: url("/images/tick.png");
