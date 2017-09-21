@@ -64,10 +64,13 @@ table .subject {
 	}
 	
 	
-tr:nth-child(even) {background-color: 888888}
+tr:nth-child(even) {
+	background-color: #888888;
+	}
 
 th {
     background-color: #3e9829;
+    font-weight: 400;
     color: white;
     } 
   
