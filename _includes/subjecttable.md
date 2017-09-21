@@ -1,5 +1,5 @@
 		
-<table style="width: 100%" table-layout="fixed">
+<table style="width: 100%">
 	<thead>
 		<tr>
 			<th class="subject">Subject</th>
