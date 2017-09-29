@@ -39,6 +39,7 @@
 			<td class="subject">Maths</td>
 			<td class="tick"></td>
 			<td class="tick"></td>
+			<td class="tick"></td>
 			<td></td>
 			<td></td>
 			<td></td>
