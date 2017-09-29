@@ -65,7 +65,7 @@ table .subject {
 	
 	
 tr:nth-child(even) {
-	background-color: #888888;
+	background-color: #bb6600;
 	}
 
 th {
@@ -106,7 +106,7 @@ html {
   overflow-y: scroll; }
 
 body {
-  background: #999999;
+  background: #cc7711;
   font: 16px/1.4 "Lato", sans-serif;
   color: #000; }
 
