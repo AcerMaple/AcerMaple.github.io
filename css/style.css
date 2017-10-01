@@ -119,11 +119,16 @@ body {
   #header a {
     text-decoration: none; }
 
-
-
+#logo {
+	margin: auto;
+	width: 25%;
+	max-width: 640px;
+}
+	
+	
 #description {
-  font-weight: 300;
-  padding-top: 1em; }
+	font-weight: 300;
+}
 
 #description img {
 	    width: 180px;
@@ -139,7 +144,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1050px !important;
+  max-width: 1050px;
   padding: 0 10px;
   width: 100%; }
 
