@@ -1,3 +1,22 @@
 User-agent: *
 Disallow: /private
-Disallow: /private/
+Disallow: /images
+Disallow: /images/
+Disallow: /images/*
+Disallow: /_includes
+Disallow: /_includes/
+Disallow: /_includes/*
+Disallow: /_layouts
+Disallow: /_layouts/
+Disallow: /_layouts/*
+Disallow: /css
+Disallow: /css/
+Disallow: /css/*
+Disallow: /.git/
+Disallow: /.git/*
+Disallow: /.gitignore
+Disallow: /_config.yml
+
+
+
+
