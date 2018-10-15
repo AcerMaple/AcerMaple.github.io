@@ -7,14 +7,12 @@
 			<th>KS2/3</th>
 			<th>GCSE</th>
 			<th>A-level</th>
-			<th>Undergrad degree</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
 			<td class="subject">Biology</td>
 			<td>N/A</td>
-			<td class="tick"></td>
 			<td class="tick"></td>
 			<td class="tick"></td>
 			<td class="tick"></td>
@@ -25,14 +23,12 @@
 			<td class="tick"></td>
 			<td class="tick"></td>
 			<td class="tick"></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td class="subject">Physics</td>
 			<td>N/A</td>
 			<td class="tick"></td>
 			<td class="tick"></td>
-			<td></td>
 			<td></td>
 		</tr>
 		<tr>
@@ -41,7 +37,6 @@
 			<td class="tick"></td>
 			<td class="tick"></td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td class="subject">English</td>
@@ -49,12 +44,10 @@
 			<td class="tick"></td>
 			<td></td>
 			<td></td>
-			<td></td>
 		</tr>
 		<tr>
 			<td class="subject">Verbal reasoning</td>
 			<td class="tick"></td>
-			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>
@@ -65,7 +58,7 @@
 			<td></td>
 			<td></td>
 			<td></td>
-			<td></td>
+
 		</tr>
 		<tr>
 			<td class="subject">Biochemistry</td>
@@ -73,7 +66,6 @@
 			<td></td>
 			<td></td>
 			<td></td>
-			<td class="tick"></td>
 		</tr>
 	</tbody>
 </table>
