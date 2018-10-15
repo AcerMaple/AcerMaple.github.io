@@ -60,12 +60,5 @@
 			<td></td>
 
 		</tr>
-		<tr>
-			<td class="subject">Biochemistry</td>
-			<td>N/A</td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
 	</tbody>
 </table>
