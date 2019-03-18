@@ -4,9 +4,8 @@
 
 	  
 	<p>
-		I aim to encourage as many students as possible to enjoy and pursue science subjects, 
-	such as biology, chemistry, physics and medicine. Having a firm grounding in these logic-based 
-	subjects provides a wide range of transferable skills that can be used in almost any career.
+		Using the <a href="https://www.ucl.ac.uk/ioe/departments-and-centres/departments/education-practice-and-society/science-capital-research/science-capital-teaching-approach">science capital teaching approach</a>, I aim to encourage as many students as possible to enjoy and pursue science subjects such as biology, chemistry and physics. 
+	 Having a firm grounding and interest in the logic-based subjects of science, technology, engineering and mathematics provides a wide range of transferable skills that can be used in almost any career. 
 	</p>
 	
 	<p>
