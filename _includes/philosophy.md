@@ -20,7 +20,7 @@
 	
 	   	<li>Working as a team</li>
 	
-		<li>Lone working</li>
+		<li>Independent studying</li>
 	
 		<li>Keeping motivated during difficult projects</li>
 	</ul>
